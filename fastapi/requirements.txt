@@ -1,0 +1,2 @@
+pip install fastapi==0.109.1
+pip install uvicorn[standard]==0.27.0.post1
