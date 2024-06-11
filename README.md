@@ -1,10 +1,10 @@
 # Streaming Data Architecture - Real-Time Dashboard for BTC
-
-
+![overview](https://github.com/T-H-Chung/pyspark-data-dashboard/assets/111836220/0eeaaa3f-fa55-482f-8200-20226a32eff8)
 
 ## Setup
+![requirements](https://img.shields.io/badge/Python->3.10.12-3480eb.svg?longCache=true&style=flat&logo=python)
 #### All the connection URLs between servers are default to be localhost. Change them to your URLs if needed.
-#### 
+#### You'll need to create the databases and setup the connections additionally.
 
 ### To run Kafka server
 Install Java,
@@ -37,6 +37,7 @@ Start streaming with another terminal,
 ```
 python websocket_kafka.py
 ```
+**You may change the subscribed channel to "ticker" for ticker data, "ticker_batch" for 5-second data. See [Coinbase API](https://docs.cdp.coinbase.com/exchange/docs/websocket-overview/).**
 
 ### To Run Spark server
 Install Spark,
