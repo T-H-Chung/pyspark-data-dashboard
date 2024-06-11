@@ -89,7 +89,7 @@ app.layout = html.Div(className="row", children=[
                         
                         Tech Stack: Websocket, Apache Kafka, Apache Spark, Postgres, FastAPI, and Dash
 
-                        [Source Code] |
+                        [Source Code](https://github.com/T-H-Chung/pyspark-data-dashboard) |
                         [Layout Adapted from Dash Gallery](https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-web-trader)
                         """
                     ),
