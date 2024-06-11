@@ -1,5 +1,9 @@
 # Streaming Data Architecture - Real-Time Dashboard for BTC
+## Architecture Overview 
 ![overview](https://github.com/T-H-Chung/pyspark-data-dashboard/assets/111836220/0eeaaa3f-fa55-482f-8200-20226a32eff8)
+
+## Demo
+![Dash](https://github.com/T-H-Chung/pyspark-data-dashboard/assets/111836220/8c549872-31a3-4c40-8900-614e1e5d14c0)
 
 ## Setup
 ![requirements](https://img.shields.io/badge/Python->3.10.12-3480eb.svg?longCache=true&style=flat&logo=python)
